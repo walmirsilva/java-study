@@ -9,6 +9,7 @@ public class Revista implements Produto, Promocional {
 	private double valor;
 	private Editora editora;
 
+	@Override
 	public String getNome() {
 		return nome;
 	}
@@ -17,6 +18,7 @@ public class Revista implements Produto, Promocional {
 		this.nome = nome;
 	}
 
+	@Override
 	public String getDescricao() {
 		return descricao;
 	}
@@ -25,6 +27,7 @@ public class Revista implements Produto, Promocional {
 		this.descricao = descricao;
 	}
 
+	@Override
 	public double getValor() {
 		return valor;
 	}
@@ -41,6 +44,7 @@ public class Revista implements Produto, Promocional {
 		this.editora = editora;
 	}
 
+	@Override
 	public boolean aplicaDescontoDe(double porcentagem) {
 		if (porcentagem > 0.1) {
 			return false;

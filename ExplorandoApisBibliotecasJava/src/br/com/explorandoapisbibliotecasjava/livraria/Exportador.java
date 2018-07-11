@@ -5,12 +5,9 @@
  */
 package br.com.explorandoapisbibliotecasjava.livraria;
 
-import br.com.explorandoapisbibliotecasjava.livraria.produtos.Livro;
-import br.com.explorandoapisbibliotecasjava.livraria.produtos.LivroFisico;
 import br.com.explorandoapisbibliotecasjava.livraria.produtos.Produto;
 import java.io.IOException;
 import java.io.PrintStream;
-import java.util.Arrays;
 import java.util.List;
 
 /**

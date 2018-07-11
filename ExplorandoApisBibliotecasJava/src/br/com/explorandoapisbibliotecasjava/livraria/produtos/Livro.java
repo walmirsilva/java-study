@@ -38,6 +38,7 @@ public abstract class Livro implements Produto {
 		return this.autor != null;
 	}
 
+	@Override
 	public double getValor() {
 		return valor;
 	}
@@ -46,6 +47,7 @@ public abstract class Livro implements Produto {
 		this.valor = valor;
 	}
 
+	@Override
 	public String getNome() {
 		return nome;
 	}
@@ -54,6 +56,7 @@ public abstract class Livro implements Produto {
 		this.nome = nome;
 	}
 
+	@Override
 	public String getDescricao() {
 		return descricao;
 	}
@@ -62,6 +65,7 @@ public abstract class Livro implements Produto {
 		this.descricao = descricao;
 	}
 
+	@Override
 	public String getIsbn() {
 		return isbn;
 	}

@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package br.com.explorandoapisbibliotecasjava.livraria;
-import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 /**
