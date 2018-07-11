@@ -58,3 +58,5 @@ pom.xml.tag
 .classpath/
 .recommenders/
 .metadata/
+/JavaFC/nbproject/private/
+/JavaFX/nbproject/private/
